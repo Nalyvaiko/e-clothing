@@ -32,7 +32,7 @@ export default class SignIn extends Component {
                         type='email'
                         label='Email'
                         value={this.state.email}
-                        handleChange={this.handleChange}
+                        onChange={this.handleChange}
                         required
                     />
                     <FormInput
@@ -40,7 +40,7 @@ export default class SignIn extends Component {
                         type='password'
                         label='Password'
                         value={this.state.password}
-                        handleChange={this.handleChange}
+                        onChange={this.handleChange}
                         required
                     />
                     <div className='buttons'>
